@@ -6,6 +6,7 @@ h1 {
 #ex2 {
     background-color: blue;
     padding: 20px;
+    margin-left: 250px;
 }
 
 .exercise2 {
@@ -20,6 +21,7 @@ p{
     letter-spacing: 2px;
     word-spacing: 4px;
 }
+
 
 h2{
     text-align: center;
@@ -70,14 +72,115 @@ h2{
 
 }
 
-.blockDisplay{
-    display: block;
+.relativePosition {
+    position: relative;
+    top: 20px;
+    left: 50px;
 }
 
-.inlineDisplay{
-    display: inline;
+.absolutePosition {
+    position: absolute;
+    top: 20px;
+    left: 50px;
 }
 
-.inlineblockDisplay{
-    display: inline-block;
+.fixedPosition {
+    position: fixed;
+    top: 20px;
+    left: 150PX;
+    text-align: center;
+}
+
+.stickyPosition {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+a{
+    font-size: 20px;
+    color: lightblue;
+}
+
+a:visited {
+    color:lightblue;
+}
+
+a:hover{
+    color:blue;
+    transition: 0.5s;
+}
+
+a:active{
+    color:red
+}
+
+.odd {
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+.even{
+    background-color: lightsandybrown;
+    font-size: 20px;
+}
+
+#firstitem{
+    font-size: 28px;
+}
+
+#lastitem{
+    border: 1px dashed black;
+}
+
+#gift1{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#gift2{
+    display: none;
+}
+
+#gift3{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#gift3:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button{
+    background: linear-gradient(to right, red, blue);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+button:hover{
+    background: linear-gradient(to right, lightblue, lightgreen);;
+    transition: 0.5s;
+}
+
+
+.layout{
+    box-shadow: 10px 10px 2px lightgray;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 500px;
+    height: 500px;
+}
+
+.layout:hover{
+    box-shadow: 10px 10px 2px gray;
+    transition: 0.5s;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
