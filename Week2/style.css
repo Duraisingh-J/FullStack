@@ -1,0 +1,83 @@
+
+h1 {
+    font-size: 24px ;
+}
+
+#ex2 {
+    background-color: blue;
+    padding: 20px;
+}
+
+.exercise2 {
+    color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 30px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.borderproperties{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    border-top-color: orangered;
+    border-bottom-color: green;
+}
+
+.box{
+    box-shadow: 10px 10px 2px lightskyblue;
+    background-color: lightgreen;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.box:hover {
+    box-shadow: 20px 20px 2px lightskyblue; 
+}
+
+.marginandpad{
+    margin: 20px 15px 25px 10px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.first{
+    float: right;
+    background-color: orangered;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.second {
+    float: left;
+    background-color: green;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+
+.blockDisplay{
+    display: block;
+}
+
+.inlineDisplay{
+    display: inline;
+}
+
+.inlineblockDisplay{
+    display: inline-block;
+}
